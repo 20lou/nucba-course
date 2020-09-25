@@ -1,0 +1,81 @@
+body {
+    background-size: 100vw 100vh;
+    background-image: url(https://www.telediariodigital.net/wp-content/uploads/2014/08/foto2-art19.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: #c94b4b;
+    /*fallbackforoldbrowsers*/
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+    /*Chrome10-25,Safari5.1-6*/
+    background: linear-gradient(to right, #4b134f, #c94b4b);
+    /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+    padding: 10px 60px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+h2,
+p {
+    color: ivory;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#boton {
+    background: rgb(92, 63, 110);
+    margin-top: 15px;
+    color: ghostwhite;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+}
+
+a {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+    color: cornsilk;
+}
