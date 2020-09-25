@@ -1,0 +1,149 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    background: #ebca9f;
+    color: black;
+    font-size: 17px;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    width: 75%;
+    max-width: 600px;
+}
+
+.inputs p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputs p label {
+    padding-bottom: 14px;
+}
+
+.inputs p input {
+    height: 40px;
+    border: none;
+    padding: 0 22px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs p input::placeholder {
+    color: gray;
+}
+
+.inputs p button {
+    width: 100%;
+    height: 35px;
+    background: rgb(223, 155, 155);
+    color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgb(223, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.inputs p button:hover {
+    opacity: 0.8;
+}
+
+.log_imagen {
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.redirec {
+    font-size: 11px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (min-width: 1000px) {
+    .log_imagen {
+        -webkit-border-top-right-radius: 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        -moz-border-radius-topright: 20px;
+        -moz-border-radius-bottomright: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        background-image: url(http://orig07.deviantart.net/53d0/f/2012/339/b/8/i_open_at_the_close___golden_snitch_gif_by_mrgartist-d5n5moo.gif);
+        ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .inputs {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputs p {
+        width: 70%;
+        margin: 10px 0;
+    }
+    .cont {
+        border-radius: 20px;
+        width: 50%;
+        background: rgb(230, 178, 68);
+        height: 60%;
+        flex-direction: row;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    html,
+    body {
+        background: wheat;
+    }
+    .inputs p:last-child button {
+        width: 100%;
+    }
+}
