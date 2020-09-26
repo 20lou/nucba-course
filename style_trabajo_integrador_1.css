@@ -1,0 +1,352 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+    background: #FFB75E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.cont {
+    margin: 0%;
+    width: 100%;
+    height: 60px;
+    background: #c94b4b;
+    /*fallbackforoldbrowsers*/
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+    /*Chrome10-25,Safari5.1-6*/
+    background: linear-gradient(to right, #4b134f, #c94b4b);
+    /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:active,
+a:hover {
+    background: #780206;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 500px) {
+    ul {
+        display: block;
+    }
+    li {
+        height: 100%;
+        height: 60px;
+        background: #c94b4b;
+        /*fallbackforoldbrowsers*/
+        background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+        /*Chrome10-25,Safari5.1-6*/
+        background: linear-gradient(to right, #4b134f, #c94b4b);
+        /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+    }
+    .counteiner {
+        display: block !important;
+    }
+    .carousell {
+        display: block;
+    }
+    form {
+        width: 100%;
+    }
+}
+
+.imagen1 {
+    width: 100%;
+    height: 450px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+}
+
+.h1centro,
+.h2centro {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 55px;
+}
+
+.div1 {
+    margin: 60px;
+    padding: 10px;
+}
+
+.imagen2_izquierda {
+    float: left;
+    margin-right: 15px;
+    width: 14%;
+    height: 14%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+}
+
+div p::first-letter {
+    font-size: 20px;
+}
+
+.carousell {
+    width: 23%;
+    height: 375px;
+    background: whitesmoke;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: auto;
+    display: inline-grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.carousell img {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: auto;
+}
+
+.carousell p,
+b {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin: 60px 0 0 10px;
+    text-align: center;
+}
+
+.carousell button {
+    width: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: auto;
+    display: block;
+    border: 1px solid orange;
+    height: 25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.caja_de_ubicación {
+    background-size: 100% 0%;
+}
+
+.mapa {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.penultimo_conteiner {
+    background-size: 100% 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+
+form {
+    width: 370px;
+    margin: auto;
+    background: rgb(196, 169, 240);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#botoncito {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+
+#botoncito:hover {
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 230px;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.container-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    justify-content: space-between;
+}
+
+.ultima_caja {
+    display: flex;
+    justify-content: center;
+}
+
+.column1 {
+    max-width: 600px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(241, 241, 241);
+    max-width: 550px;
+    font-size: 15px;
+}
+
+.column2 {
+    max-width: 600px;
+    margin-left: 15px;
+}
+
+.row2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.row2 label {
+    margin-left: 15px;
+    max-width: 550px;
+    margin-top: 10px;
+    font-size: 15px;
+}
