@@ -96,6 +96,7 @@ a {
     margin-top: 10px;
     cursor: pointer;
     color: black;
+    display: flex;
 }
 
 @media screen and (min-width: 1000px) {
