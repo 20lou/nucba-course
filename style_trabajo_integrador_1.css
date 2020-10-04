@@ -79,7 +79,9 @@ a:hover {
         background: linear-gradient(to right, #4b134f, #c94b4b);
         /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
     }
-    .imagen1 {}
+    .imagen1 {
+        margin: 0%;
+    }
     form {
         width: 100%;
     }
