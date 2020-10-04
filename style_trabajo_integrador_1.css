@@ -15,13 +15,14 @@ html {
 .cont {
     margin: 0%;
     width: 100%;
-    height: 60px;
     background: #c94b4b;
     /*fallbackforoldbrowsers*/
     background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
     /*Chrome10-25,Safari5.1-6*/
     background: linear-gradient(to right, #4b134f, #c94b4b);
     /*W3C,IE10+/Edge,Firefox16+,Chrome26+,Opera12+,Safari7+*/
+    margin-bottom: 0px;
+    margin-top: 0%;
 }
 
 .navbar {
@@ -43,8 +44,8 @@ li {
 
 a {
     width: 100%;
-    height: 60px;
     color: #fff;
+    height: 60px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -89,6 +90,8 @@ a:hover {
     height: 450px;
     object-fit: cover;
     display: flex;
+    margin-top: 0%;
+    margin: 0%;
 }
 
 .title {
@@ -292,6 +295,7 @@ footer {
     color: white;
     padding-top: 30px;
     padding-bottom: 25px;
+    letter-spacing: 0.4px;
 }
 
 .container-footer {
